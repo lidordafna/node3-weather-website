@@ -37,7 +37,7 @@ app.get('/about', (req, res) =>{
 app.get('/help', (req, res) =>{
     res.render('help',{
         title: 'Help Page',
-        msg: 'An help message...', 
+        msg: 'Help message...', 
         name: 'Lidor Dafna'
     })
 })
